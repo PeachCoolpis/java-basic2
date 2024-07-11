@@ -35,8 +35,7 @@ public class ProductOrderMain3 {
     
     static void printOrders(ProductOrder[] orders) {
         for (ProductOrder order : orders) {
-            System.out.println("상품명: " + order.productName + ", 가격: " +
-                    order.price + ", 수량: " + order.quantity);
+            System.out.println("상품명: " + order.productName + ", 가격: " + order.price + ", 수량: " + order.quantity);
         }
     }
     
